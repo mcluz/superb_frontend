@@ -28,8 +28,22 @@ URL: http://condor3464.startdedicated.com:3002/booking-manager
 
 
 
-Installation
-------------
+# Get Started
+
+Clone the project:
+
+```
+$ git clone git@github.com:mcluz/superb_frontend.git
+```
+
+Initialize docker environment:
+
+```
+docker-compose up -d
+```
+
+
+# Installing
 
 In your project root:
 
@@ -38,14 +52,14 @@ npm install
 ```
 
 Run
----
+
 
 ```javascript
 npm start
 ```
 
 Build
------
+
 
 ```javascript
 npm run build
