@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  superb-front:
+    image: superb-front:latest
+    container_name: superb-front
+    restart: always
+    build: .
+    ports: 
+    - 3002:80/tcp
